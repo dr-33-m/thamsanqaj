@@ -1,7 +1,3 @@
-Thanks for the clarification! Here's a README tailored for your Astro project portfolio site:
-
----
-
 # Thamsanqa Ncube Portfolio - Astro Site
 
 Welcome to my personal portfolio built using Astro! This site serves as a digital showcase of my work, projects, and technical expertise. As a developer and entrepreneur, I’ve combined my passion for art and technology to create innovative solutions and impactful projects.
@@ -81,5 +77,3 @@ After setting up the project, you can:
 ## License
 
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for more details.
-
----

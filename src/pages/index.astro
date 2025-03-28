@@ -19,44 +19,19 @@ const projects = (await getCollection("projects"))
 
 const stack = [
   { 
-    text: "Astro", 
-    icon: "astro", 
-    href: "https://astro.build" 
-  },
-  { 
-    text: "Javascript", 
-    icon: "javascript", 
-    href: "https://www.javascript.com" 
-  },
-  { 
     text: "Typescript", 
     icon: "typescript", 
     href: "https://www.typescriptlang.org" 
-  },
-  { 
-    text: "Tailwind", 
-    icon: "tailwind", 
-    href: "https://tailwindcss.com" 
-  },
-  { 
-    text: "Blender", 
-    icon: "blender", 
-    href: "https://www.blender.org/" 
-  },
-  {
-    text: "Next.js",
-    icon: "nextjs",
-    href: "https://nextjs.org/"
-  },
-  {
-    text:"React",
-    icon:"react",
-    href:"https://react.dev/"
   },
   {
     text:"Python",
     icon:"python",
     href:"https://www.python.org/"
+  },
+  {
+    text:"C++",
+    icon: "cpp",
+    href: "https://cplusplus.com/"
   }
   
 ]
@@ -101,13 +76,13 @@ const stack = [
       <div class='relative w-full h-full flex items-center justify-center'>
         <div class='p-5 text-center'>
           <p class='animated text-lg md:text-xl lg:text-2xl font-semibold opacity-75'>
-            Welcome! I'm Thamsanqa Ncube.
+            Welcome to my Codex of
           </p>
           <p class='animated text-2xl md:text-3xl lg:text-4xl font-bold uppercase text-black dark:text-white'>
-            Software Developer & Technical Creative
+            Ideas and Experiences
           </p>
           <p class='animated text-sm md:text-base lg:text-lg opacity-75'>
-            Building automated solutions for adtech and CG content.
+            For those bold enough to chase greatness and create change.
 </p>
           </p>
           <div id="ctaButtons" class='animated flex flex-wrap gap-4 justify-center mt-5'>
@@ -129,16 +104,14 @@ const stack = [
       <!-- About Section -->
       <section class="animate">
         <article>
-
-<p>I am a <b><i>software developer</i></b> and <b><i>technical creative</i></b> with a keen interest in building automated solutions and enhancing user experiences through innovation and design. As a self-taught developer, I began coding at the age of 15, driven by curiosity and a passion for learning. Over the years, I have developed my skills through hands-on projects and continuous exploration of new technologies.</p>
-
-<p>Currently, I work remotely for <a href="https://flowliving.com/" target="_blank"><b>Flowliving</b></a>, an adtech company, where I focus on ensuring production stability, troubleshooting complex production issues, and implementing feature enhancements. I identify root causes of issues and apply patches to maintain a seamless tech stack, all while contributing to ongoing product development.</p>
-
-<p>Outside of work, I am focused on developing <a href="https://cr8.streetcrisis.online/" target="_blank"><b>Cr8-xyz</b></a>, a CG content creation platform that automates video production by merging creativity with procedural and AI technology. This project embodies my drive to blend technology, design, and creativity into transformative solutions.</p>
-
-<p>In my extra time, I lead and maintain passionate open-source projects such as <a href="https://openkommerce.africa/" target="_blank"><b>OpenKommerce</b></a>, an e-commerce platform empowering SMMEs to launch their products online, and <a href="https://trustmarkt.vercel.app/" target="_blank"><b>TrustMarkt</b></a>, which enhances online security for social commerce.</p>
+            <p>Welcome to my corner of the web. I'm <b><i>Thamsanqa Dreem</i></b>, a tech-entrepreneur, and believer in the transformative power of technology. I started coding at 15, driven by curiosity and a desire to understand how technology could change the world around me. Since then, I’ve built open-source projects, started a startup, and worked in tech, all while learning valuable lessons along the way.</p>
+    
+            <p>This blog is a reflection of my journey, a place where I share the ideas, values, and lessons that shape not just my work, but my vision for a better world. I'm passionate about using technology for good, whether it’s through empowering small businesses, challenging the status quo, or creating platforms that make a difference.</p>
+    
+            <p>As I continue my entrepreneurial path, I hope this blog serves as a resource for others who dare to dream. Here, I’ll share insights, stories, and reflections on building a tech-driven business that prioritizes social impact, values, and the people who are part of it. If you're someone who believes in the power of tech to make the world a better place, you're in the right place. Let’s learn, grow, and dream together.</p>
         </article>
-      </section>
+    </section>
+    
 
       <!-- Blog Preview Section -->
       <section class="animate">
@@ -167,7 +140,7 @@ const stack = [
       <section class="animate">
         <div class="space-y-4">
           <p class="font-semibold text-black dark:text-white">
-           My Tech Stack 
+            My digital dialects
           </p>
           <div class="flex flex-wrap items-center gap-2 mt-5">
             {stack.map(item => (

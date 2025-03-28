@@ -2,10 +2,9 @@ import type { Site, Page, Links, Socials } from "@types";
 
 // Global
 export const SITE: Site = {
-  TITLE: "Thamsanqa Ncube",
-  DESCRIPTION:
-    "Welcome to my portfolio—a showcase of my work in software development, creative solutions, and CG content.",
-  AUTHOR: "Thamsanqa Ncube",
+  TITLE: "Thamsanqa Dreem",
+  DESCRIPTION: "Welcome to my codex of ideas and experiences",
+  AUTHOR: "Thamsanqa Dreem",
 };
 
 // Work Page

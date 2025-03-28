@@ -5,8 +5,6 @@ date: "May 24 2024"
 draft: false
 tags:
   - Typescript
-  - Tailwind
-  - Nextjs
 demoUrl: https://open-kommerce.vercel.app/
 repoUrl: https://github.com/ThamsanQue/openKommerce
 ---

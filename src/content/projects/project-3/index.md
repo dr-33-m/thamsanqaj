@@ -7,8 +7,6 @@ date: "October 08 2024"
 draft: false
 tags:
 - Typescript
-- Nextjs
-- Tailwind
 demoUrl: https://tus.streetcrisis.online
 repoUrl: https://github.com/ThamsanQue/the-underground-scene
 ---

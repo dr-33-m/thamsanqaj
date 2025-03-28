@@ -6,8 +6,6 @@ draft: false
 tags:
   - Python
   - Typescript
-  - Tailwind
-  - Nextjs
 demoUrl: https://trustmarkt.vercel.app/
 repoUrl: https://github.com/ThamsanQue/TrustMarkt
 ---

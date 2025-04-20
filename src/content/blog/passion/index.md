@@ -7,6 +7,7 @@ tags:
   - Passion
   - Career
   - Self Discovery
+coverImage: "./assets/Maze.png"
 ---
 
 ![Cover Image](./assets/Maze.png)

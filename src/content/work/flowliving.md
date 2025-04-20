@@ -1,5 +1,6 @@
 ---
-company: "Flowliving"
+company: "Flow Platform"
+link: "https://flowplatform.com/"
 role: "Software Developer"
 dateStart: "05/01/2023"
 dateEnd: "Now"

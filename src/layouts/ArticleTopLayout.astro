@@ -2,6 +2,7 @@
 import type { CollectionEntry } from "astro:content";
 import { formatDate, readingTime } from "@lib/utils";
 import ShareButton from "@components/ShareButton";
+import PlayButton from "@components/PlayButton";
 
 type Props = {
   entry: CollectionEntry<"projects"> | CollectionEntry<"blog">;
@@ -65,7 +66,12 @@ const currentUrl = Astro.url.href;
       </svg>
       {readingTime(body)}
     </div>
-    <!-- Use the ShareButton component with client:load directive -->
+    <!-- Audio and share buttons -->
+    {
+      collection === "blog" && data.audioUrl && (
+        <PlayButton audioUrl={data.audioUrl} client:load />
+      )
+    }
     <ShareButton url={currentUrl} class="!normal-case" client:load />
   </div>
   <h1 class="text-3xl font-semibold text-black dark:text-white mt-2">

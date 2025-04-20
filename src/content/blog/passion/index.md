@@ -8,9 +8,10 @@ tags:
   - Career
   - Self Discovery
 coverImage: "/assets/Maze.png"
+audioUrl: "https://storage.streetcrisis.online/dreem-blog-audios/Passion.mp3"
 ---
 
-![Cover Image](./assets/Maze.png)
+![Cover Image](/assets/Maze.png)
 
 # In the Maze: Journey to Finding Your Passion
 

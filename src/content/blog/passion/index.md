@@ -8,7 +8,7 @@ tags:
   - Career
   - Self Discovery
 coverImage: "/assets/Maze.png"
-audioUrl: "https://storage.streetcrisis.online/dreem-blog-audios/Passion.mp3"
+audioUrl: "https://storage.streetcrisis.online/dreem-blog-audios/Passion.wav"
 ---
 
 ![Cover Image](/assets/Maze.png)

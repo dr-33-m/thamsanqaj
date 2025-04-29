@@ -7,6 +7,7 @@ tags:
   - Passion
   - Self Discovery
 coverImage: "/assets/identity.png"
+audioUrl: "https://storage.streetcrisis.online/dreem-blog-audios/self-awareness.wav"
 ---
 
 ![Cover Image](/assets/identity.png)

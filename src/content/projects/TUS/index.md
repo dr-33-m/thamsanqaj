@@ -1,12 +1,10 @@
 ---
 title: "The Underground Scene"
-summary: "An open-source platform designed to simplify talent discovery for scouts and industry leaders, helping them connect with emerging creative talent more efficiently.
-An open-source platform designed to simplify talent discovery for scouts and industry leaders, helping them connect with emerging creative talent more efficiently.
-"
+summary: "An open-source platform designed to simplify talent discovery for scouts and industry leaders, helping them connect with emerging creative talent more efficiently."
 date: "October 08 2024"
 draft: false
 tags:
-- Typescript
+  - Typescript
 demoUrl: https://tus.streetcrisis.online
 repoUrl: https://github.com/ThamsanQue/the-underground-scene
 ---

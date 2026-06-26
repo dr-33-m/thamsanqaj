@@ -6,6 +6,8 @@ import StackCard from "@components/StackCard.astro"
 import { SITE, SOCIALS } from "@consts"
 import TwinklingStars from "@components/TwinklingStars.astro"
 import MeteorShower from "@components/MeteorShower.astro"
+import cr8Logo from "@assets/cr8-xyz-transparent.png"
+import ocLogo from "@assets/OC.svg"
 
 const posts = (await getCollection("blog"))
   .filter(post => !post.data.draft)
@@ -73,25 +75,50 @@ const stack = [
       </div>
     </div>
     <div class="animate absolute h-full w-full flex items-center justify-center">
-      <div class='relative w-full h-full flex items-center justify-center'>
+      <div class='relative w-full flex flex-col items-center pt-[15vh] md:pt-[25vh]'>
         <div class='p-5 text-center'>
           <p class='animated text-lg md:text-xl lg:text-2xl font-semibold opacity-75'>
-            Welcome to my Codex of
+            Hi, I'm Thamsanqa.
           </p>
-          <p class='animated text-2xl md:text-3xl lg:text-4xl font-bold uppercase text-black dark:text-white'>
-            Ideas and Experiences
+          <h1 class='animated text-2xl md:text-4xl lg:text-5xl font-bold text-black dark:text-white mt-2 md:mt-4'>
+            Turning code into worlds.
+          </h1>
+          <p class='animated text-sm md:text-base lg:text-lg opacity-75 mt-2 md:mt-4'>
+            I'm a practical dreamer building products around the things I care about most.
           </p>
-          <p class='animated text-sm md:text-base lg:text-lg opacity-75'>
-            For those bold enough to chase greatness and create change.
-</p>
-          </p>
-          <div id="ctaButtons" class='animated flex flex-wrap gap-4 justify-center mt-5'>
-            <a href='/blog' class='py-2 px-4 rounded truncate text-xs md:text-sm lg:text-base bg-black dark:bg-white text-white dark:text-black hover:opacity-75 blend'>
-              Read my blog
-            </a>
-            <a href='/work' class='py-2 px-4 truncate rounded text-xs md:text-sm lg:text-base border border-black/25 dark:border-white/25 hover:bg-black/5 hover:dark:bg-white/15 blend'>
-              View my work
-            </a>
+        </div>
+
+        <!-- Featured Projects -->
+        <div class="animated w-full max-w-screen-md px-5 mt-8 md:mt-12">
+          <div class="grid grid-cols-2 gap-4 md:gap-8">
+            <!-- CR8-XYZ -->
+            <div class="flex flex-col items-center text-center space-y-2 md:space-y-4">
+              <div class="w-12 h-12 md:w-16 md:h-16 flex items-center justify-center">
+                <img src={cr8Logo.src} alt="Cr8-xyz" class="w-full h-full object-contain scale-150 dark:mix-blend-screen mix-blend-multiply" />
+              </div>
+              <h3 class="text-base md:text-xl font-bold text-black dark:text-white">Cr8-xyz</h3>
+              <p class="text-xs md:text-sm opacity-75 flex-1">
+                <span class="hidden md:inline">Creative platform for high-quality CGI content.<br/></span>
+                Making CGI content creation simple for everyone.
+              </p>
+              <a href="https://www.cr8-xyz.art/" target="_blank" class="py-1.5 px-3 md:py-2 md:px-4 rounded-md text-xs md:text-sm border border-black/25 dark:border-white/25 text-black dark:text-white hover:bg-black/5 hover:dark:bg-white/15 transition-colors duration-300">
+                Creative Platform
+              </a>
+            </div>
+            <!-- Open Citadel -->
+            <div class="flex flex-col items-center text-center space-y-2 md:space-y-4">
+              <div class="w-12 h-12 md:w-16 md:h-16 flex items-center justify-center">
+                <img src={ocLogo.src} alt="Open Citadel" class="w-full h-full object-contain scale-90" />
+              </div>
+              <h3 class="text-base md:text-xl font-bold text-black dark:text-white">Open Citadel</h3>
+              <p class="text-xs md:text-sm opacity-75 flex-1">
+                <span class="hidden md:inline">Knowledge OS for builders.<br/></span>
+                Turn what you learn into decisions, actions, and outcomes.
+              </p>
+              <a href="https://open-citadel.thamsanqa.africa/" target="_blank" class="py-1.5 px-3 md:py-2 md:px-4 rounded-md text-xs md:text-sm border border-black/25 dark:border-white/25 text-black dark:text-white hover:bg-black/5 hover:dark:bg-white/15 transition-colors duration-300">
+                Knowledge OS
+              </a>
+            </div>
           </div>
         </div>
       </div>
@@ -104,11 +131,18 @@ const stack = [
       <!-- About Section -->
       <section class="animate">
         <article>
-            <p>Welcome to my corner of the web. I'm <b><i>Thamsanqa Dreem</i></b>, a tech-entrepreneur, and believer in the transformative power of technology. I started coding at 15, driven by curiosity and a desire to understand how technology could change the world around me. Since then, I’ve built open-source projects, started a startup, and worked in tech, all while learning valuable lessons along the way.</p>
-    
-            <p>This blog is a reflection of my journey, a place where I share the ideas, values, and lessons that shape not just my work, but my vision for a better world. I'm passionate about using technology for good, whether it’s through empowering small businesses, challenging the status quo, or creating platforms that make a difference.</p>
-    
-            <p>As I continue my entrepreneurial path, I hope this blog serves as a resource for others who dare to dream. Here, I’ll share insights, stories, and reflections on building a tech-driven business that prioritizes social impact, values, and the people who are part of it. If you're someone who believes in the power of tech to make the world a better place, you're in the right place. Let’s learn, grow, and dream together.</p>
+            <p>Hi, I'm <b><i>Thamsanqa Dreem</i></b>.</p>
+
+            <p>I'm an autodidact and technical creative obsessed with the intersection of software and art.</p>
+
+            <p>I started with code, but Blender changed how I saw it. For the first time, code was not just logic on a screen, it could become images, worlds, and beautiful visual experiences. That realization shaped the work I am dedicating my life to: building software that helps people create high-quality CGI content simply.</p>
+
+            <p>Along the way, I've also become deeply interested in self-development. Dreams demand more than ideas. They demand discipline, learning, reflection, and the willingness to become better every day.</p>
+
+            <p>This website is where I share what I'm building, what I'm learning, and how I see the world.</p>
+
+            <p>I hope you enjoy exploring my perspective.</p>
+
         </article>
     </section>
     

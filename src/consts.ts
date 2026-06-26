@@ -77,4 +77,28 @@ export const SOCIALS: Socials = [
     TEXT: "dr_33_m",
     HREF: "https://twitter.com/dr_33_m",
   },
+  {
+    NAME: "Instagram",
+    ICON: "instagram",
+    TEXT: "_dr_33_m_",
+    HREF: "https://www.instagram.com/_dr_33_m_",
+  },
+  {
+    NAME: "TikTok",
+    ICON: "tiktok",
+    TEXT: "_dr_33_m_",
+    HREF: "https://www.tiktok.com/@_dr_33_m_",
+  },
+  {
+    NAME: "Reddit",
+    ICON: "reddit",
+    TEXT: "GreatCamera3575",
+    HREF: "https://www.reddit.com/u/GreatCamera3575",
+  },
+  {
+    NAME: "YouTube",
+    ICON: "youtube",
+    TEXT: "dr-33-m",
+    HREF: "https://www.youtube.com/@dr-33-m",
+  },
 ];
